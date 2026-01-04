@@ -1,17 +1,79 @@
-# React + Vite
+# Creativo Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page untuk Creativo, platform yang menyediakan produk custom berkualitas dan layanan digital profesional. Dari desain hingga eksekusi, kami hadir untuk memenuhi kebutuhan kreatif Anda.
 
-Currently, two official plugins are available:
+## Deskripsi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Creativo adalah solusi lengkap untuk kebutuhan kreatif dan digital Anda. Kami menawarkan berbagai produk custom seperti mug dan gantungan kunci dengan desain sesuai keinginan, serta layanan digital seperti desain Canva dan editing dokumen Office.
 
-## React Compiler
+## Fitur
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Produk Custom
+- **Mug Custom**: Mug berkualitas tinggi dengan desain sesuai keinginan Anda
+- **Gantungan Kunci Custom**: Gantungan kunci unik dengan desain sesuai permintaan
 
-## Expanding the ESLint configuration
+### Layanan Digital
+- **Jasa Desain Canva**: Desain profesional untuk social media, poster, flyer, presentasi, logo, dan infografis
+- **Edit Dokumen Office**: Formatting dokumen Word, pembuatan spreadsheet Excel, dan desain presentasi PowerPoint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Creativo
+## Teknologi yang Digunakan
+
+- **React 19**: Library JavaScript untuk membangun antarmuka pengguna
+- **Vite**: Build tool dan development server yang cepat
+- **Tailwind CSS**: Framework CSS utility-first
+- **AOS (Animate On Scroll)**: Library untuk animasi scroll
+- **Lucide React**: Library ikon SVG
+
+## Instalasi
+
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/username/creativo-lp.git
+   cd creativo-lp
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Jalankan development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Buka browser dan akses `http://localhost:5173`
+
+## Scripts
+
+- `npm run dev` - Jalankan development server
+- `npm run build` - Build untuk production
+- `npm run preview` - Preview build production
+- `npm run lint` - Jalankan ESLint
+
+## Struktur Proyek
+
+```
+creativo-lp/
+├── public/
+│   └── img/          # Gambar produk
+├── src/
+│   ├── components/
+│   │   └── landingPage.jsx  # Komponen utama landing page
+│   ├── App.jsx       # Komponen root aplikasi
+│   ├── main.jsx      # Entry point React
+│   └── index.css     # Styling global
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Kontak
+
+- **Instagram**: [@creative_voo](https://instagram.com/creative_voo)
+- **Email**: creativoconnectin@gmail.com
+- **Lokasi**: Jakarta, Indonesia
+
+## Lisensi
+
+© 2025 Creativo. All rights reserved.
